@@ -78,7 +78,7 @@
         )) {
           options.push($option.textContent);
           if (
-            !/Patients de 18 à 50 ans|Je suis un particulier/.test(
+            !/Patients de 18 à 50 ans|Je suis un particulier|Public/.test(
               $option.textContent
             )
           )
